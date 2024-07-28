@@ -71,3 +71,6 @@ SNS（主にX）を活用する
 一般的なCRUD以外の実装予定の機能についてそれぞれどのようなイメージ(使用するAPIや)で実装する予定なのか現状考えているもので良いので教えて下さい。
 
 ImageMagickを使って、投稿画像をリサイズしたいと考えています。
+
+■ 画面遷移図
+https://www.figma.com/board/aeZeaYdiZHwSSNAOHYqs7n/%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%EF%BC%9A%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?node-id=0-1&t=X9YydZiCYdFyuoQf-1
