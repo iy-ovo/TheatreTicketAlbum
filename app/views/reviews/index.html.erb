@@ -1,0 +1,10 @@
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- 掲示板一覧 -->
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <% if @reviews.present? %>
+          <%= render @reviews %>
+        <% else %>
+          <div class="text-gray-500">レビューがありません</div>
+        <% end %>
+  </div>
+</div>
