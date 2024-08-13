@@ -9,18 +9,14 @@
 
     <!-- Card -->
     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
-      <%= form_with model: @Review, class: "new_review" do |f| %>
+      <%= form_with model: @review, class: "new_review" do |f| %>
         <div class="mb-4 sm:mb-8">
-          <label for="title" class="block mb-2 text-sm font-medium">
-            映画タイトル
-          </label>
+          <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
           <%= f.text_field :title, class: "py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
         </div>
 
         <div class="mb-4 sm:mb-8">
-          <label for="review_content" class="block mb-2 text-sm font-medium">
-            感想
-          </label>
+          <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium" %>
           <%= f.text_area :review_content, class: "py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画の感想を記載" , rows: "10" %>
         </div>
 
