@@ -1,8 +1,10 @@
 class ReviewsController < ApplicationController
 
-  def top; end
-
   def index
     @reviews = Review.all
+  end
+
+  def new
+    @reviews = Review.new
   end
 end
