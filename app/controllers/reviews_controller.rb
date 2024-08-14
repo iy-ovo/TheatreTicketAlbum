@@ -1,8 +1,26 @@
 class ReviewsController < ApplicationController
 
-  def top; end
-
   def index
     @reviews = Review.all
+  end
+
+  def new
+    @review = Review.new
+  end
+
+  def create
+    @review = Review.new(review_params)
+    if @review.save
+      redirect_to reviews_path, success: '投稿が完了しました'
+    else
+        flash.now[:danger] = '投稿に失敗しました'
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  private
+
+  def review_params
+    params.require(:review).permit(:title, :review_content)
   end
 end
