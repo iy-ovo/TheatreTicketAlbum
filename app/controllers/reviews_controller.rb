@@ -11,8 +11,9 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     if @review.save
-      redirect_to reviews_path
+      redirect_to reviews_path, success: '投稿が完了しました'
     else
+        flash.now[:danger] = '投稿に失敗しました'
       render :new, status: :unprocessable_entity
     end
   end
