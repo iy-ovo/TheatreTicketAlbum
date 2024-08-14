@@ -2594,3 +2594,241 @@ Processing by ReviewsController#new as HTML
 Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
 
 
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:30 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 4.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | GC: 0.3ms)
+Completed 200 OK in 97ms (Views: 27.6ms | ActiveRecord: 35.9ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:31 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.5ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:56 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 21.2ms | ActiveRecord: 19.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:56 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:22:14 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | GC: 0.1ms)
+Completed 200 OK in 19ms (Views: 12.1ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:22:45 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.7ms | GC: 0.1ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | GC: 0.2ms)
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:14 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.9ms | GC: 0.5ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.0ms | GC: 0.5ms)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | GC: 0.2ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.7ms)
+Completed 200 OK in 87ms (Views: 15.2ms | ActiveRecord: 36.4ms (0 queries, 0 cached) | GC: 2.1ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:15 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.7ms | GC: 0.4ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:38 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | GC: 0.3ms)
+Completed 200 OK in 35ms (Views: 12.0ms | ActiveRecord: 18.6ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:39 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | GC: 0.5ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:36:00 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.2ms)
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 2.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:02:51 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.5ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 126.0ms | GC: 2.7ms)
+Completed 200 OK in 129ms (Views: 127.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.7ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:02:52 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:04:53 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 3.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | GC: 0.3ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:04:54 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.5ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:05:25 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | GC: 0.5ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:05:25 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
