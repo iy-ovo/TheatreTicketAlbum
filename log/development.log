@@ -1803,3 +1803,1032 @@ Processing by ReviewsController#new as HTML
 Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
 
 
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 16:57:46 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 5.1ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | GC: 0.0ms)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.1ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:13:30 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 4.2ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 6.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 36.5ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000003f1b0>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000003f1b0>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:14:57 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 20.9ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000042b08>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000042b08>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: @review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:14:58 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000042cc0>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000042cc0>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: @review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:14:59 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 0.5ms | GC: 0.2ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.3ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000042e28>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000042e28>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: @review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:14:59 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 0.4ms | GC: 0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.0ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.1ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000042f68>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000042f68>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: @review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:15:01 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x000000000430a8>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x000000000430a8>)
+    1: <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    2:   <%= render 'shared/error_messages', object: f.object %>
+    3:   <%= form_with model: @review, local: true do |f| %>
+    4:     <div class="mb-4 sm:mb-8">
+    5:       <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/_form.html.erb:2
+app/views/reviews/new.html.erb:9
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:18:04 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 3.4ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000046988>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000046988>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review, local: true do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:18:06 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.9ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.1ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000046b18>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000046b18>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review, local: true do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:26:37 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.8ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.4ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 37.1ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a420>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a420>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:26:40 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a600>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a600>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:26:42 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a768>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000004a768>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:27:09 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.2ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 18.5ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000004e098>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000004e098>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |form| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:27:11 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000004e228>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000004e228>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |form| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:28:01 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 2.6ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000051b80>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000051b80>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |form| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:28:02 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000051d10>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000051d10>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |form| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:28:03 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.0ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000051e50>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000051e50>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:       <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review do |form| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:43:11 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 35.6ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x000000000557d0>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x000000000557d0>)
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:         <%= form_with model: @review do |form| %>
+    11:           <div class="mb-4 sm:mb-8">
+    12:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+    13:             <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+    14:           </div>
+    15:           <div class="mb-4 sm:mb-8">
+  
+app/views/reviews/new.html.erb:12
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:43:22 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000055988>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000055988>)
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:         <%= form_with model: @review do |form| %>
+    11:           <div class="mb-4 sm:mb-8">
+    12:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+    13:             <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+    14:           </div>
+    15:           <div class="mb-4 sm:mb-8">
+  
+app/views/reviews/new.html.erb:12
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:43:22 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000055af0>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x00000000055af0>)
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:         <%= form_with model: @review do |form| %>
+    11:           <div class="mb-4 sm:mb-8">
+    12:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+    13:             <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+    14:           </div>
+    15:           <div class="mb-4 sm:mb-8">
+  
+app/views/reviews/new.html.erb:12
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:44:56 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 3.1ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | GC: 0.5ms)
+Completed 200 OK in 54ms (Views: 25.5ms | ActiveRecord: 21.7ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 17:44:57 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.8ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | GC: 0.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/" for 192.168.65.1 at 2024-08-14 20:53:54 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/index.html.erb within layouts/application
+  [1m[36mReview Load (64.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/views/reviews/index.html.erb:4
+  Rendered collection of reviews/_review.html.erb [2 times] (Duration: 4.6ms | GC: 0.0ms)
+  Rendered reviews/index.html.erb within layouts/application (Duration: 78.3ms | GC: 3.5ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 87.5ms | GC: 4.6ms)
+Completed 200 OK in 110ms (Views: 4.2ms | ActiveRecord: 100.0ms (1 query, 0 cached) | GC: 18.6ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:53:58 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 3.6ms | GC: 0.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | GC: 0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!-- Comment Form -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="mx-auto max-w-2xl">
+    <div class="text-center">
+      <h2 class="text-xl text-gray-500 font-bold sm:text-3xl">
+        レビュー作成
+      </h2>
+    </div>
+    <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+        <%= form_with model: @review, class: "new_review" do |f| %>
+          <div class="mb-4 sm:mb-8">
+            <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+            <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+          </div>
+          <div class="mb-4 sm:mb-8">
+            <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium" %>
+            <%= f.text_area :review_content, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画の感想を記載" , rows: "10" %>
+          </div>
+          <div class="mt-6 grid">
+           <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" %>
+          </div>
+        <% end %>
+    </div>
+  </div>
+</div>
+
+<%= form_with model: @review, class: "new_review" do |f| %>
+  <%= f.text_field :title>
+  <%= f.text_area :review_content, rows: "10" %>
+  <%= f.submit "投稿" %>
+<% end %>
+):
+
+Causes:
+ActiveSupport::SyntaxErrorProxy (/myapp/app/views/reviews/new.html.erb:29: syntax error, unexpected '<'
+  <%= f.text_area :review_conten...
+  ^
+/myapp/app/views/reviews/new.html.erb:31: syntax error, unexpected `end', expecting ')'
+'.freeze; end ;
+          ^~~
+/myapp/app/views/reviews/new.html.erb:33: syntax error, unexpected `end', expecting ')'
+          end
+          ^~~
+)
+1:    <!-- Comment Form -->
+2:    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+3:      <div class="mx-auto max-w-2xl">
+4:        <div class="text-center">
+5:          <h2 class="text-xl text-gray-500 font-bold sm:text-3xl">
+6:            レビュー作成
+7:          </h2>
+8:        </div>
+9:        <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+10:            <%= form_with model: @review, class: "new_review" do |f| %>
+11:              <div class="mb-4 sm:mb-8">
+12:                <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+13:                <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+14:              </div>
+15:              <div class="mb-4 sm:mb-8">
+16:                <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium" %>
+17:                <%= f.text_area :review_content, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画の感想を記載" , rows: "10" %>
+18:              </div>
+19:              <div class="mt-6 grid">
+20:               <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" %>
+21:              </div>
+22:            <% end %>
+23:        </div>
+24:      </div>
+25:    </div>
+26:    
+27:    <%= form_with model: @review, class: "new_review" do |f| %>
+28:      <%= f.text_field :title>
+29:      <%= f.text_area :review_content, rows: "10" %>
+30:      <%= f.submit "投稿" %>
+31:    <% end %>
+  
+app/views/reviews/new.html.erb:29: syntax error, unexpected '<'
+app/views/reviews/new.html.erb:31: syntax error, unexpected `end', expecting ')'
+app/views/reviews/new.html.erb:33: syntax error, unexpected `end', expecting ')'
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:54:25 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 32ms (Views: 10.2ms | ActiveRecord: 18.2ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:56:33 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | GC: 0.0ms)
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 2.9ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:56:34 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:58:10 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 2.7ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!-- Comment Form -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="mx-auto max-w-2xl">
+    <div class="text-center">
+      <h2 class="text-xl text-gray-500 font-bold sm:text-3xl">
+        レビュー作成
+      </h2>
+    </div>
+    <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+        <%= form_with model: @review, class: "new_review" do |f| %>
+          <div class="mb-4 sm:mb-8">
+            <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+            <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+          </div>
+          <div class="mb-4 sm:mb-8">
+            <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium" %>
+            <%= f.text_area :review_content, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画の感想を記載" , rows: "10" %>
+          </div>
+          <div class="mt-6 grid">
+           <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" %>
+          </div>
+        <% end %>
+    </div>
+  </div>
+</div>
+
+<%= form_with model: @review do |f| %>
+  <%= f.text_field :title, class: "py-3 px-4 block w-full rounded-lg text-sm disabled:opacity-50 disabled:pointer-events-none" %>
+  <%= f.text_area :review_content, , rows: "10" %>
+  <%= f.submit "投稿" %>
+<% end %>
+):
+
+Causes:
+ActiveSupport::SyntaxErrorProxy (/myapp/app/views/reviews/new.html.erb:29: syntax error, unexpected ','
+... f.text_area :review_content, , rows: "10" ); @output_buffer...
+...                              ^
+)
+1:    <!-- Comment Form -->
+2:    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+3:      <div class="mx-auto max-w-2xl">
+4:        <div class="text-center">
+5:          <h2 class="text-xl text-gray-500 font-bold sm:text-3xl">
+6:            レビュー作成
+7:          </h2>
+8:        </div>
+9:        <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+10:            <%= form_with model: @review, class: "new_review" do |f| %>
+11:              <div class="mb-4 sm:mb-8">
+12:                <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+13:                <%= f.text_field :title, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画タイトル" %>
+14:              </div>
+15:              <div class="mb-4 sm:mb-8">
+16:                <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium" %>
+17:                <%= f.text_area :review_content, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none", placeholder: "映画の感想を記載" , rows: "10" %>
+18:              </div>
+19:              <div class="mt-6 grid">
+20:               <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" %>
+21:              </div>
+22:            <% end %>
+23:        </div>
+24:      </div>
+25:    </div>
+26:    
+27:    <%= form_with model: @review do |f| %>
+28:      <%= f.text_field :title, class: "py-3 px-4 block w-full rounded-lg text-sm disabled:opacity-50 disabled:pointer-events-none" %>
+29:      <%= f.text_area :review_content, , rows: "10" %>
+30:      <%= f.submit "投稿" %>
+31:    <% end %>
+  
+app/views/reviews/new.html.erb:29: syntax error, unexpected ','
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 20:58:40 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 9.7ms | ActiveRecord: 2.6ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:00:23 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 3.8ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x0000000006f400>):
+
+Causes:
+NameError (undefined local variable or method `f' for #<ActionView::Base:0x0000000006f400>)
+     7:       </h2>
+     8:     </div>
+     9:     <div class="mt-5 p-4 relative z-10 bg-white border rounded-xl sm:mt-10 md:p-10">
+    10:         <%= render 'shared/error_messages', object: f.object %>
+    11:         <%= form_with model: @review, class: "new_review" do |f| %>
+    12:           <div class="mb-4 sm:mb-8">
+    13:             <%= f.label :title, "映画タイトル", class: "block mb-2 text-sm font-medium" %>
+  
+app/views/reviews/new.html.erb:10
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:03:08 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 4.4ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | GC: 2.4ms)
+Completed 200 OK in 25ms (Views: 16.7ms | ActiveRecord: 3.6ms (0 queries, 0 cached) | GC: 2.4ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:03:09 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 1.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | GC: 0.4ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:30 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 4.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | GC: 0.3ms)
+Completed 200 OK in 97ms (Views: 27.6ms | ActiveRecord: 35.9ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:31 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.5ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:56 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 21.2ms | ActiveRecord: 19.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:21:56 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:22:14 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | GC: 0.1ms)
+Completed 200 OK in 19ms (Views: 12.1ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:22:45 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.7ms | GC: 0.1ms)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | GC: 0.2ms)
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:14 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.9ms | GC: 0.5ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.0ms | GC: 0.5ms)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | GC: 0.2ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.7ms)
+Completed 200 OK in 87ms (Views: 15.2ms | ActiveRecord: 36.4ms (0 queries, 0 cached) | GC: 2.1ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:15 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.7ms | GC: 0.4ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:38 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | GC: 0.3ms)
+Completed 200 OK in 35ms (Views: 12.0ms | ActiveRecord: 18.6ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:35:39 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | GC: 0.5ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 21:36:00 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.2ms)
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 2.5ms (0 queries, 0 cached) | GC: 2.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:02:51 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.5ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 126.0ms | GC: 2.7ms)
+Completed 200 OK in 129ms (Views: 127.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.7ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:02:52 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:04:53 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 3.9ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | GC: 0.3ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:04:54 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.5ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:05:25 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 5.6ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | GC: 0.5ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/reviews/new" for 192.168.65.1 at 2024-08-14 22:05:25 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReviewsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered reviews/new.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_flash_message.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
