@@ -8,7 +8,7 @@ Bundler.require(*Rails.groups)
 
 module V3BasicRailsBasic
   class Application < Rails::Application
-    config.time_zone = 'Tokyo'
+    config.time_zone = "Tokyo"
   end
 end
 

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'reviews#index'
+  root "reviews#index"
 
   resources :reviews, only: %i[index new create]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
