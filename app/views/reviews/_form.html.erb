@@ -9,8 +9,11 @@
       <%= f.label :review_content, "感想", class: "block mb-2 text-sm font-medium dark:text-white" %>
       <%= f.text_area :review_content, class: "py-3 px-4 block w-full border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-500 dark:text-neutral-100 dark:placeholder-neutral-400 dark:focus:ring-neutral-600", placeholder: "映画の感想を記載" , rows: "10" %>
     </div>
+    <%= f.label :review_image, "チケット写真", class: "block mb-2 text-sm font-medium dark:text-white" %>
+    <%= f.file_field :review_image, class: "py-2 px-3 block text-sm", accept: 'image/*' %>
+    <%= f.hidden_field :review_image_cache %>
     <div class="mt-6 grid">
-      <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-400 dark:focus:bg-neutral-500" %>
+      <%= f.submit "投稿", class: "w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-400 dark:focus:bg-neutral-500" %>
     </div>
   <% end %>
 </div>

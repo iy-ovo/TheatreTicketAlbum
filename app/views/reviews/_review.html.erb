@@ -1,11 +1,11 @@
 <div class="group flex flex-col focus:outline-none">
   <div id="review-id-<%= review.id %>">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <%= image_tag "no_image.png", class: "size-full absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl" %>
+      <div class="relative pt-[50%] sm:pt-[100%] rounded-xl overflow-hidden">
+        <%= image_tag review.review_image_url, class: "size-full absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-500 transition-transform duration-105 ease-in-out rounded-xl" %>
       </div>
       <div class="mt-7">
-        <h4 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-200 dark:group-hover:text-neutral-500">
-          <%= link_to review.title, '#' %>
+        <h4 class="text-xl font-semibold text-gray-800 dark:text-neutral-200">
+          <%= review.title %>
         </h4>
         <p class="mt-3 text-gray-800 dark:text-neutral-200">
         <%= review.review_content %>
