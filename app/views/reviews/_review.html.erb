@@ -1,20 +1,20 @@
-<div class="flex flex-col">
+<div class="flex-col bg-white border py-8 px-7 rounded-xl sm:mt-10 md:p-10 dark:bg-neutral-900">
   <div class="group focus:outline-none">
     <div id="review-id-<%= review.id %>">
-      <div class="relative pt-[50%] sm:pt-[100%] rounded-xl overflow-hidden">
+      <div class="relative pt-[100%] sm:pt-[100%] rounded-xl overflow-hidden">
         <%= image_tag review.review_image_url, class: "size-full absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-500 transition-transform duration-105 ease-in-out rounded-xl" %>
+        <span class="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-neutral-900">
+          <%= review.title %>
+        </span>
       </div>
       <div class="mt-7">
-        <h4 class="text-xl font-semibold text-gray-800 dark:text-neutral-200">
-          <%= review.title %>
-        </h4>
-        <p class="mt-3 text-gray-800 dark:text-neutral-200">
-        <%= review.review_content %>
+        <p class="text-gray-800 dark:text-neutral-200">
+          <%= review.review_content %>
         </p>
       </div>
     </div>
   </div>
   <%= link_to review_path(review), id: "button-delete-#{review.id}", data: { turbo_method: :delete, turbo_confirm: "削除しますか？" } do %>
-    <p class="text-gray-800 dark:text-neutral-400"> 削除 </p>
+    <p class="mt-5 py-0.5 px-2 inline-flex text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-gray-400 dark:bg-white dark:text-neutral-800">削除</p>
   <% end %>
 </div>
