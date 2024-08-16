@@ -17,6 +17,12 @@ class ReviewsController < ApplicationController
     end
   end
 
+  def destroy
+    review = Review.find_by(id: params[:id])
+    review.destroy!
+    redirect_to reviews_path, success: "削除しました", status: :see_other
+  end
+
   private
 
   def review_params
